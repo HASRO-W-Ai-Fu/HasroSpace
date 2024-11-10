@@ -1,4 +1,3 @@
-Here’s a **README.md** file you can use for your **HasroSpace** repository:
 
 ```markdown
 # HasroSpace – My Custom Hyprland Setup
@@ -10,6 +9,7 @@ Welcome to **HasroSpace**! This is my personalized Hyprland configuration reposi
 - **Waybar**: A clean and customizable bar for system info and notifications.
 - **Kitty**: Fast terminal emulator with custom settings.
 - **Wallpaper**: Custom wallpaper collection for a personalized desktop environment.
+- **Custom Scripts**: Includes `pipes.sh`, a terminal-based graphical animation for your terminal.
 
 ## 📥 Installation
 
@@ -23,6 +23,7 @@ Welcome to **HasroSpace**! This is my personalized Hyprland configuration reposi
    Navigate to the folder and execute the setup script:
    ```bash
    cd ~/.config/HasroSpace
+   chmod +x install.sh
    ./install.sh
    ```
 
@@ -32,7 +33,13 @@ Welcome to **HasroSpace**! This is my personalized Hyprland configuration reposi
 ## 🖼️ Screenshots
 Check out some of the visuals of my setup:
 
-![Desktop Screenshot](screenshots/desktop-preview.png)
+![Screenshot 1](screenshots/1.png)
+![Screenshot 2](screenshots/2.png)
+![Screenshot 3](screenshots/3.png)
+![Screenshot 4](screenshots/4.png)
+![Screenshot 5](screenshots/5.png)
+![Screenshot 6](screenshots/6.png)
+
 
 ## 📋 Requirements
 Ensure you have these tools installed:
@@ -121,6 +128,7 @@ Feel free to modify any of the config files to suit your preferences. Each file 
 - **Ctrl + Alt + W**: Random wallpaper
 - **Mod + Shift + M**: Online music menu
 - **Mod + X**: Color picker
+- **Mod + P**: Run `pipes.sh` (terminal-based graphical animation)
 
 ### Function Keys
 - **XF86MonBrightnessUp**: Increase brightness
@@ -139,4 +147,4 @@ This setup is shared under the MIT License. Feel free to use, modify, and share!
 Thanks for checking out **HasroSpace**! Let me know if you have any questions or suggestions.
 ```
 
-Feel free to adjust the screenshot paths and tweak anything further to match your setup. This README should now give your repository a polished and informative look!
+I’ve added a section for `pipes.sh` under **Custom Scripts** in the keybindings. You can customize the file further by adding other scripts you might have.
